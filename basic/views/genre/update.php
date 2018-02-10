@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Genre */
 
-$this->title = 'Редактировать жанр: {nameAttribute}';
+$this->title = "Редактировать жанр: {$model->title}";
 $this->params['breadcrumbs'][] = ['label' => 'Жанры', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->title, 'url' => ['view', 'id' => $model->genre_id]];
 $this->params['breadcrumbs'][] = 'Изменить';

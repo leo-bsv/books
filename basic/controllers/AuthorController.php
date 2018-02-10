@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use Yii;
 use app\models\Author;
+use app\models\AuthorSearch;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -47,12 +48,12 @@ class AuthorController extends Controller
      */
     public function actionIndex()
     {
-        $dataProvider = new ActiveDataProvider([
-            'query' => Author::find(),
-        ]);
+        $searchModel = new AuthorSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->get());
 
         return $this->render('index', [
             'dataProvider' => $dataProvider,
+            'searchModel' => $searchModel,
         ]);
     }
 

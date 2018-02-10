@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Author */
 
-$this->title = $model->author_id;
+$this->title = $model->last_name . ' ' . $model->first_name . ' ' . $model->patronomic;
 $this->params['breadcrumbs'][] = ['label' => 'Авторы', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
