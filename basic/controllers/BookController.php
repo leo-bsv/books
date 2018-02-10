@@ -2,13 +2,19 @@
 
 namespace app\controllers;
 
+use Codeception\Module\Yii2;
 use Yii;
 use app\models\Book;
+use app\models\Genre;
+use app\models\Author;
+use app\models\BookAuthor;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+use yii\helpers\ArrayHelper;
+use yii\web\UploadedFile;
 
 /**
  * BookController implements the CRUD actions for Book model.
@@ -77,13 +83,25 @@ class BookController extends Controller
     public function actionCreate()
     {
         $model = new Book();
+        $genre_list = ArrayHelper::map(Genre::find()->all(), 'genre_id', 'title');
+        $author_list = ArrayHelper::map(Author::find()->orderBy('last_name')->all(), 'author_id', '_fio');
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(app()->request->post()) && $model->save()) {
+            $book = app()->request->post('Book');
+
+            // добавим актуальных авторов книги
+            foreach ($book['authors'] as $author_id) {
+                $author = Author::findOne($author_id);
+                $model->link('authors', $author);
+            }
+
             return $this->redirect(['view', 'id' => $model->book_id]);
         }
 
         return $this->render('create', [
             'model' => $model,
+            'genre_list' => $genre_list,
+            'author_list' => $author_list,
         ]);
     }
 
@@ -97,13 +115,28 @@ class BookController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $genre_list = ArrayHelper::map(Genre::find()->all(), 'genre_id', 'title');
+        $author_list = ArrayHelper::map(Author::find()->orderBy('last_name')->all(), 'author_id', '_fio');
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(app()->request->post()) && $model->save()) {
+
+            $book = app()->request->post('Book');
+            // удалим предыдущие связи с таблицей авторов
+            BookAuthor::deleteAll(['book_id' => $id]);
+
+            // добавим актуальных авторов книги
+            foreach ($book['authors'] as $author_id) {
+                $author = Author::findOne($author_id);
+                $model->link('authors', $author);
+            }
+
             return $this->redirect(['view', 'id' => $model->book_id]);
         }
 
         return $this->render('update', [
             'model' => $model,
+            'genre_list' => $genre_list,
+            'author_list' => $author_list,
         ]);
     }
 

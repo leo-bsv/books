@@ -34,6 +34,14 @@ class Genre extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
+    public function getBook()
+    {
+        return $this->hasMany(Book::className(), ['genre_id' => 'genre_id']);
+    }
+
+    /**
+     * @inheritdoc
+     */
     public function attributeLabels()
     {
         return [
@@ -41,4 +49,14 @@ class Genre extends \yii\db\ActiveRecord
             'title' => 'Название',
         ];
     }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->title;
+    }
+
+
 }

@@ -12,13 +12,19 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'genre_id')->textInput() ?>
-
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'year')->textInput() ?>
 
-    <?= $form->field($model, 'picture')->textInput(['maxlength' => true]) ?>
+    <?= Html::activeLabel($model, 'genre') ?>
+    <?= $form->field($model, 'genre_id')->dropDownList($genre_list)->label(false) ?>
+
+    <?= Html::activeLabel($model, 'authors') ?>
+    <div class="form-control book-authors-list">
+        <?= $form->field($model, 'authors')->checkboxList($author_list,['separator' => '<br>'])->label(false) ?>
+    </div>
+
+    <?= $form->field($model, 'image_file')->fileInput() ?>
 
     <div class="form-group">
         <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>

@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Book */
 
-$this->title = 'Изменить описание книги: {nameAttribute}';
+$this->title = "Правка данных книги: {$model->title}";
 $this->params['breadcrumbs'][] = ['label' => 'Книги', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->title, 'url' => ['view', 'id' => $model->book_id]];
 $this->params['breadcrumbs'][] = 'Update';
@@ -16,6 +16,8 @@ $this->params['breadcrumbs'][] = 'Update';
 
     <?= $this->render('_form', [
         'model' => $model,
+        'genre_list' => $genre_list,
+        'author_list' => $author_list,
     ]) ?>
 
 </div>

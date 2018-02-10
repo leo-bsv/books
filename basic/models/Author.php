@@ -65,4 +65,12 @@ class Author extends \yii\db\ActiveRecord
         return parent::__get($name);
     }
 
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->_fio;
+    }
+
 }

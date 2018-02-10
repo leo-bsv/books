@@ -23,12 +23,32 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            //'book_id',
-            //'genre_id',
             'title',
+            [
+                'attribute' => 'picture',
+                'format' => 'html',
+                'value' => function($data) {
+                    $filename = Yii::getAlias('@webroot') . '/uploads/' . $data->picture;
+                    if (file_exists($filename) && !is_dir($filename))
+                        return '<img class="book-minipic" src="' . Yii::getAlias('@web') . '/uploads/' . $data->picture . '">';
+                    else
+                        return '';
+                }
+            ],
+            [
+                'attribute' => 'authors',
+                'format' => 'html',
+                'value' => function($data) {
+                    $result = '';
+                    foreach ($data->authors as $author) {
+                        if (!empty($result)) $result .= ', ';
+                        $result .= $author->_fio;
+                    }
+                    return $result;
+                }
+            ],
             'year',
-            'picture',
-
+            'genre',
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
