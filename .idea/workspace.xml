@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="135bdb97-82bb-458e-ac79-f195b7724ba3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/basic/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="books@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/book/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Author.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/models/Author.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="69" column="7" lean-forward="false" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/config/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/config/params.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/config/test_db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/Readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/web/css/site.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/models/ContactForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/book/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+              <folding>
+                <element signature="e#7#28#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>language</find>
+      <find>renderTagAttributes</find>
+      <find>delete</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test1" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="test1" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/db_creation.sql" />
+        <option value="$PROJECT_DIR$/basic/config/db.php" />
+        <option value="$PROJECT_DIR$/basic/migrations/m180208_133327_create_tables.php" />
+        <option value="$PROJECT_DIR$/basic/views/genre/_form.php" />
+        <option value="$PROJECT_DIR$/basic/views/author/_form.php" />
+        <option value="$PROJECT_DIR$/basic/models/User.php" />
+        <option value="$PROJECT_DIR$/basic/views/genre/view.php" />
+        <option value="$PROJECT_DIR$/basic/views/genre/create.php" />
+        <option value="$PROJECT_DIR$/basic/views/author/create.php" />
+        <option value="$PROJECT_DIR$/basic/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/basic/views/site/about.php" />
+        <option value="$PROJECT_DIR$/basic/views/site/contact.php" />
+        <option value="$PROJECT_DIR$/basic/models/ContactForm.php" />
+        <option value="$PROJECT_DIR$/basic/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/basic/views/site/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/site/login.php" />
+        <option value="$PROJECT_DIR$/basic/README.md" />
+        <option value="$PROJECT_DIR$/basic/controllers/GenreController.php" />
+        <option value="$PROJECT_DIR$/basic/models/GenreSearch.php" />
+        <option value="$PROJECT_DIR$/basic/models/AuthorSearch.php" />
+        <option value="$PROJECT_DIR$/basic/views/genre/update.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/AuthorController.php" />
+        <option value="$PROJECT_DIR$/basic/views/author/update.php" />
+        <option value="$PROJECT_DIR$/basic/views/author/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/genre/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/author/view.php" />
+        <option value="$PROJECT_DIR$/basic/models/UploadImage.php" />
+        <option value="$PROJECT_DIR$/basic/views/book/create.php" />
+        <option value="$PROJECT_DIR$/basic/views/book/update.php" />
+        <option value="$PROJECT_DIR$/basic/models/Genre.php" />
+        <option value="$PROJECT_DIR$/basic/models/Author.php" />
+        <option value="$PROJECT_DIR$/basic/config/funcs.php" />
+        <option value="$PROJECT_DIR$/basic/web/index.php" />
+        <option value="$PROJECT_DIR$/basic/models/BookAuthor.php" />
+        <option value="$PROJECT_DIR$/basic/views/book/_form.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/BookController.php" />
+        <option value="$PROJECT_DIR$/basic/config/web.php" />
+        <option value="$PROJECT_DIR$/basic/models/Book.php" />
+        <option value="$PROJECT_DIR$/basic/views/book/view.php" />
+        <option value="$PROJECT_DIR$/basic/views/book/index.php" />
+        <option value="$PROJECT_DIR$/basic/web/css/site.css" />
+        <option value="$PROJECT_DIR$/basic/config/params.php" />
+        <option value="$PROJECT_DIR$/basic/Readme.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9009" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5">
+    <include_path>
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-bootstrap" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2-swiftmailer" />
+      <path value="$PROJECT_DIR$/basic/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/specify" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/verify" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/basic/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/basic/vendor/composer" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/typeahead.js" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/basic/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/basic/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/basic/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/basic/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/basic/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/basic/vendor/codeception/base" />
+      <path value="$PROJECT_DIR$/basic/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/basic/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/basic/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/basic/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/basic/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/basic/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/basic/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/basic/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/basic/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/basic/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/basic/vendor/sebastian/version" />
+    </include_path>
+  </component>
+  <component name="PhpXdebugProxy" ide_key="phpstorm" host="127.0.0.1" port="9009" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="960" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="books.qq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books.qq" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="books.qq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books.qq" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="basic" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.proxy" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="DEFAULT" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/basic/runtime/mail/20180211-190304-9444-2950.eml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basic/models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/db_prepare.sql" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/basic/web/index.php" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="135bdb97-82bb-458e-ac79-f195b7724ba3" name="Default" comment="" />
+      <created>1518086527302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518086527302</updated>
+      <workItem from="1518086541105" duration="2641000" />
+      <workItem from="1518089469364" duration="18548000" />
+      <workItem from="1518174705181" duration="172000" />
+      <workItem from="1518174989243" duration="2061000" />
+      <workItem from="1518245098826" duration="2357000" />
+      <workItem from="1518247538473" duration="41402000" />
+      <workItem from="1518375258865" duration="1634000" />
+      <workItem from="1518793501413" duration="592000" />
+      <workItem from="1519057736646" duration="609000" />
+      <workItem from="1519161932148" duration="666000" />
+      <workItem from="1540439425561" duration="6993000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1518247859687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518247859687</updated>
+    </task>
+    <task id="LOCAL-00002" summary="search in GridView added, redesign, filled data into database,&#10;some views edited">
+      <created>1518266686981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518266686981</updated>
+    </task>
+    <task id="LOCAL-00003" summary="almost finished">
+      <created>1518303891163</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518303891163</updated>
+    </task>
+    <task id="LOCAL-00004" summary="database books exported to file books.sql">
+      <created>1518376271030</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518376271030</updated>
+    </task>
+    <task id="LOCAL-00005" summary="admin email changed">
+      <created>1518376324251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518376324251</updated>
+    </task>
+    <task id="LOCAL-00006" summary="admin email changed">
+      <created>1540439642547</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540439642547</updated>
+    </task>
+    <task id="LOCAL-00007" summary="admin email changed&#10;&#10;(cherry picked from commit d350b82dbf48966b4047d803fb74460760f46b23)">
+      <created>1540442855523</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540442855523</updated>
+    </task>
+    <task id="LOCAL-00008" summary="admin email changed&#10;&#10;(cherry picked from commit d350b82dbf48966b4047d803fb74460760f46b23)">
+      <created>1540444974622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540444974622</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="77675000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="0" width="1926" height="1050" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23748669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.4978701" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5149095" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.48509052" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="test1" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="origin/test1" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="search in GridView added, redesign, filled data into database,&#10;some views edited" />
+    <MESSAGE value="almost finished" />
+    <MESSAGE value="database books exported to file books.sql" />
+    <MESSAGE value="admin email changed" />
+    <MESSAGE value="admin email changed&#10;&#10;(cherry picked from commit d350b82dbf48966b4047d803fb74460760f46b23)" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin email changed&#10;&#10;(cherry picked from commit d350b82dbf48966b4047d803fb74460760f46b23)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/author/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/author/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="401">
+            <caret line="209" column="69" lean-forward="false" selection-start-line="209" selection-start-column="69" selection-end-line="209" selection-end-column="69" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/genre/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/GenreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="106" column="30" lean-forward="true" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/GenreSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/author/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/genre/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/author/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/author/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/genre/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/db/QueryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/AuthorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2242">
+          <caret line="134" column="26" lean-forward="false" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/UploadImage.php" />
+    <entry file="file://$PROJECT_DIR$/basic/models/AuthorSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1138">
+          <caret line="1832" column="46" lean-forward="false" selection-start-line="1832" selection-start-column="27" selection-end-line="1832" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/widgets/ActiveField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="271" column="20" lean-forward="false" selection-start-line="271" selection-start-column="20" selection-end-line="271" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="574" column="27" lean-forward="false" selection-start-line="574" selection-start-column="27" selection-end-line="574" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/db/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="557" column="20" lean-forward="false" selection-start-line="557" selection-start-column="20" selection-end-line="557" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/book/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/base/BaseObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/base/Component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/data/BaseDataProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/data/ActiveDataProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/book/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/Genre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/config/funcs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="106" lean-forward="false" selection-start-line="3" selection-start-column="106" selection-end-line="3" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-686">
+          <caret line="1261" column="20" lean-forward="false" selection-start-line="1261" selection-start-column="20" selection-end-line="1261" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/BookAuthor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/helpers/Html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/web/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11172">
+          <caret line="594" column="20" lean-forward="false" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/BaseYii.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2318">
+          <caret line="130" column="27" lean-forward="false" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/book/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+          <folding>
+            <element signature="e#30#38#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/book/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/book/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/web/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/runtime/mail/20180211-190304-9444-2950.eml" />
+    <entry file="file://$PROJECT_DIR$/basic/models/Author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="7" lean-forward="false" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/ContactForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/config/test_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
